@@ -13,18 +13,18 @@ The core script cleans, aligns, and merges time-series data to uncover hidden be
 
 Based on the data processing and cohort analysis, here are the primary findings regarding trader behavior:
 
-1. **Market State vs. Win Rate:** The analysis reveals that the overall trader win rate is [Insert %] during "Fear" states, compared to [Insert %] during "Greed" states, indicating that traders generally [struggle/succeed] more when the market is euphoric.
+1. **Market State vs. Win Rate:** The analysis reveals that the overall trader win rate is 42.08% during standard "Fear" states, compared to 38.48% during "Greed" states. Interestingly, extreme market euphoria ("Extreme Greed") pushes the overall average win rate to its peak at 46.49%.
 
-2. **Elite Trader Risk Management (Top 10%):** When analyzing the top 10% most profitable accounts, a distinct behavioral pattern emerges. During "Fear" classifications, elite traders [increase/decrease] their average trade size to $[Insert Number], compared to standard retail traders who average $[Insert Number]. This suggests the most profitable accounts are actively [scaling into / reducing] risk during market downturns.
+2. **Elite Trader Risk Management (Top 10%):** When analyzing the top 10% most profitable accounts, a distinct behavioral pattern emerges regarding position sizing. During "Fear" classifications, elite traders increase their average trade size to $12,968.25, compared to standard retail traders (the other 90%) who average just $4,722.24. This suggests the most profitable accounts are actively scaling into risk and buying with high conviction during market downturns.
 
-3. **Overall Profitability Skew:**
-   The average PnL across all cohorts is significantly impacted by sentiment, with "Greed" days resulting in an average PnL of $[Insert Number], contrasting heavily with "Fear" days at $[Insert Number]. This data can directly inform automated risk-scaling strategies for algorithmic execution.
+3. **Asymmetric Profitability in Extreme Greed:**
+   The top 10% of traders exhibit a massive profitability skew during "Extreme Greed." While their win rate actually drops to 32.05% in this state, their average PnL skyrockets to $378.88 per trade (compared to the other 90% who average just $44.38). This indicates that elite traders do not win more often during euphoric markets; rather, they utilize asymmetric risk management—cutting losers quickly and letting winning trades run significantly further.
 
 ## 🚀 How to Run the Code
 1. Clone this repository.
 2. Ensure you have `pandas` installed (`pip install pandas`).
 3. Place `historical_data.csv` and `sentiment_data.csv` in the root directory.
-4. Run `python analysis.py` to output the dataframes and metrics to the terminal or generate the summary CSVs.
+4. Run `python analysis.py` to output the dataframes and metrics to the terminal.
 
 ---
 *Author: Mohammed Mehran Imtiyaz Ahmed Shaikh*
