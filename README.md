@@ -24,7 +24,7 @@ Based on the data processing and cohort analysis, here are the primary findings 
 1. Clone this repository.
 2. Ensure you have `pandas` installed (`pip install pandas`).
 3. Place `historical_data.csv` and `sentiment_data.csv` in the root directory.
-4. Run `python analysis.py` to output the dataframes and metrics to the terminal.
+4. Run `python analysis.py` to output the dataframes and metrics to the terminal or generate the summary CSVs.
 
 ---
 *Author: Mohammed Mehran Imtiyaz Ahmed Shaikh*
