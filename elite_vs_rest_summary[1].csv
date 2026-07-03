@@ -1,0 +1,11 @@
+Trader_Tier,classification,Avg_PnL,Avg_Trade_Size,Win_Rate
+Other 90%,Extreme Fear,26.31,5622.79,37.24
+Other 90%,Extreme Greed,44.38,2882.13,47.59
+Other 90%,Fear,30.09,4722.24,40.6
+Other 90%,Greed,28.93,2990.48,40.48
+Other 90%,Neutral,12.11,3117.98,37.02
+Top 10%,Extreme Fear,57.39,4591.3,36.58
+Top 10%,Extreme Greed,378.88,6156.07,32.05
+Top 10%,Fear,94.59,12968.25,44.53
+Top 10%,Greed,101.05,17326.1,30.04
+Top 10%,Neutral,90.54,9000.58,46.49
